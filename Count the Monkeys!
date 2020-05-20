@@ -1,7 +1,0 @@
-def monkey_count(n):
-    countrange = list(range(n))
-    count=[]
-    for index,ele in enumerate(countrange):
-        ele = ele + 1
-        count.append(ele)
-    return count
